@@ -1,4 +1,4 @@
-package sod
+package sod.api
 
 import groovy.json.JsonBuilder
 import groovyx.net.http.RESTClient
