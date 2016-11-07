@@ -30,6 +30,13 @@ dependencies {
     compile group: 'io.swagger', name: 'swagger-parser', version: dependencies.swaggerParser
     compile 'com.google.guava:guava:19.0'
 
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+
+    // logging
+    compile group: 'org.slf4j', name:'slf4j-api', version: '1.6.4'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '0.9.26'
+
+
     // mandatory dependencies for using Spock
     // initial dependencies.
     compile "org.codehaus.groovy:groovy-all:2.4.1"

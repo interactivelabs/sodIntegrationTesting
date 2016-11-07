@@ -3,6 +3,7 @@ package sod.api
 import com.google.common.net.MediaType
 import groovy.json.JsonBuilder
 import groovyx.net.http.RESTClient
+import org.apache.commons.lang3.RandomStringUtils
 import org.apache.http.HttpStatus
 import sod.BaseSodSpecification
 import spock.lang.Shared
@@ -13,17 +14,19 @@ import spock.lang.Specification
 
 class ClientSpec extends BaseSodSpecification {
 
-    int userNameTest = 0;
     def clientDto = null;
 
     void setup() {
+        println("User: " + rUser);
     }
+
+    @Shared
+    String rUser = "test-"+RandomStringUtils.randomAlphanumeric(10)+"@tersuslavanderia.com".toLowerCase();
 
     def "Save/Update Client"() {
         when: "Call save/update client. "
-        println("Prefix: " + userNameTest)
         def body = [
-                email         : "test@tersuslavanderia.com",
+                email         : rUser ,
                 lastName      : "Gonzalez",
                 name          : "Pedro",
                 password      : "___",
@@ -50,9 +53,8 @@ class ClientSpec extends BaseSodSpecification {
 
     def "Save/Delete/Reactivate Client"() {
         when: "Call save/update client. "
-        println("Prefix: " + userNameTest)
         def body = [
-                email         : "test@tersuslavanderia.com",
+                email         : rUser,
                 lastName      : "Gonzalez",
                 name          : "Pedro",
                 password      : "___",
@@ -101,14 +103,14 @@ class ClientSpec extends BaseSodSpecification {
             println "Given section : " + new JsonBuilder(sodClient).toPrettyString()
         when: "Call save client. "
             // get client
-            sodClient = restClient.get(path: "clients", query: ['email' : "test@tersuslavanderia.com"]).data
+            sodClient = restClient.get(path: "clients", query: ['email' : rUser]).data
             println "Initial" + new JsonBuilder(sodClient).toPrettyString()
 
             // update client type
             restClient.post(path: "clients/clientType/addClients/2", body: sodClient, requestContentType: MediaType.JSON_UTF_8)
 
             // get client again..
-            sodClient = restClient.get(path: "clients", query: ['email' : "test@tersuslavanderia.com"])
+            sodClient = restClient.get(path: "clients", query: ['email' : rUser])
             println "updated" + new JsonBuilder(sodClient.data).toPrettyString()
 
         then: "The correct status is expected. "
@@ -122,7 +124,7 @@ class ClientSpec extends BaseSodSpecification {
     def "Get Client"() {
         when: "Call save client. "
         String uri = uris['clients']
-        def sodClient = restClient.get(path: "clients", query: ['email' : "test@tersuslavanderia.com"])
+        def sodClient = restClient.get(path: "clients", query: ['email' : rUser])
 
         then: "The correct status is expected. "
         with(sodClient) {
@@ -135,7 +137,7 @@ class ClientSpec extends BaseSodSpecification {
     def "Test Client properties."() {
         given:
         String uri = uris['clients']
-        def sodClient = restClient.get(path: "clients", query: ['email' : "test@tersuslavanderia.com"]).data;
+        def sodClient = restClient.get(path: "clients", query: ['email' : rUser]).data;
         def idClient = sodClient.idClient[0];
 
         when:
