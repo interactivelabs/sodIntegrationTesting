@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b2c00d2-e053-4f84-9e42-7eca36be4f7b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/OrderSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ProductSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/PromotionSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy" />
-      <change type="MODIFICATION" beforePath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/.idea/workspace.xml" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy" afterPath="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy" />
     </list>
     <ignored path="sodIntegrationTesting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +63,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PromotionSpec.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PromotionSpec.groovy" pinned="false" current-in-tab="false">
         <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/PromotionSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -83,11 +79,43 @@
       <file leaf-file-name="OrderSpec.groovy" pinned="false" current-in-tab="false">
         <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/OrderSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="240">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="21" />
               <folding>
                 <element signature="n#!!block;n#Test CRUD Order Type#0;n#!!block;n#OrderSpec#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TasksSpec.groovy" pinned="false" current-in-tab="false">
+        <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/TasksSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesSpec.groovy" pinned="false" current-in-tab="true">
+        <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!block;n#Test CRUD Service Category#0;n#!!block;n#ServicesSpec#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductSpec.groovy" pinned="false" current-in-tab="false">
+        <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ProductSpec.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="74" column="58" selection-start-line="71" selection-start-column="8" selection-end-line="74" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -706,10 +734,10 @@
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/TasksSpec.groovy" />
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/SupplySpec.groovy" />
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/SpecSpec.groovy" />
-        <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy" />
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ProductSpec.groovy" />
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/OrderSpec.groovy" />
         <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/PromotionSpec.groovy" />
+        <option value="/Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy" />
       </list>
     </option>
   </component>
@@ -975,85 +1003,7 @@
       <recent name="$PROJECT_DIR$/src/test/sod" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PromotionSpec.Test CRUD Promotion">
-    <configuration default="false" name="ProductSpec.Crud product" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sod.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sodIntegrationTesting_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sod.api" />
-      <option name="MAIN_CLASS_NAME" value="sod.api.ProductSpec" />
-      <option name="METHOD_NAME" value="Crud product" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="OrderSpec.Test CRUD Order Type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sod.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sodIntegrationTesting_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sod.api" />
-      <option name="MAIN_CLASS_NAME" value="sod.api.OrderSpec" />
-      <option name="METHOD_NAME" value="Test CRUD Order Type" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="OrderSpec.Test CRUD Order Type Task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sod.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sodIntegrationTesting_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sod.api" />
-      <option name="MAIN_CLASS_NAME" value="sod.api.OrderSpec" />
-      <option name="METHOD_NAME" value="Test CRUD Order Type Task" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ServicesSpec.Test CRUD Service Type">
     <configuration default="false" name="PromotionSpec.Test CRUD Promotion Type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1093,6 +1043,84 @@
       <option name="PACKAGE_NAME" value="sod.api" />
       <option name="MAIN_CLASS_NAME" value="sod.api.PromotionSpec" />
       <option name="METHOD_NAME" value="Test CRUD Promotion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TasksSpec.Add 2 Tasktype + Add Task + change task from task type " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sod.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sodIntegrationTesting_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sod.api" />
+      <option name="MAIN_CLASS_NAME" value="sod.api.TasksSpec" />
+      <option name="METHOD_NAME" value="Add 2 Tasktype + Add Task + change task from task type " />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ServicesSpec.Test CRUD Service Category" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sod.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sodIntegrationTesting_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sod.api" />
+      <option name="MAIN_CLASS_NAME" value="sod.api.ServicesSpec" />
+      <option name="METHOD_NAME" value="Test CRUD Service Category" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ServicesSpec.Test CRUD Service Type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sod.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sodIntegrationTesting_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sod.api" />
+      <option name="MAIN_CLASS_NAME" value="sod.api.ServicesSpec" />
+      <option name="METHOD_NAME" value="Test CRUD Service Type" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1591,19 +1619,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ProductSpec.Crud product" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OrderSpec.Test CRUD Order Type" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OrderSpec.Test CRUD Order Type Task" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion Type" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion Type" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TasksSpec.Add 2 Tasktype + Add Task + change task from task type " />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ServicesSpec.Test CRUD Service Category" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ServicesSpec.Test CRUD Service Type" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion Type" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrderSpec.Test CRUD Order Type Task" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrderSpec.Test CRUD Order Type" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductSpec.Crud product" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ServicesSpec.Test CRUD Service Type" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServicesSpec.Test CRUD Service Category" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TasksSpec.Add 2 Tasktype + Add Task + change task from task type " />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PromotionSpec.Test CRUD Promotion Type" />
       </list>
     </recent_temporary>
   </component>
@@ -1649,14 +1677,11 @@
       <workItem from="1478437617553" duration="8694000" />
       <workItem from="1478525270873" duration="1074000" />
       <workItem from="1478541863060" duration="1397000" />
-      <workItem from="1478977802067" duration="14524000" />
+      <workItem from="1478977802067" duration="16277000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderSpec_Test_CRUD_Order_Type_Task - 2016.11.13 at 11h 10m 29s.xml">
-      <configuration name="OrderSpec.Test CRUD Order Type Task" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PromotionSpec_Test_CRUD_Promotion - 2016.11.13 at 13h 32m 31s.xml">
       <configuration name="PromotionSpec.Test CRUD Promotion" configurationId="JUnit" />
     </history-entry>
@@ -1672,21 +1697,24 @@
     <history-entry file="PromotionSpec_Test_CRUD_Promotion - 2016.11.13 at 13h 57m 58s.xml">
       <configuration name="PromotionSpec.Test CRUD Promotion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PromotionSpec_Test_CRUD_Promotion_Type - 2016.11.13 at 11h 14m 47s.xml">
-      <configuration name="PromotionSpec.Test CRUD Promotion Type" configurationId="JUnit" />
+    <history-entry file="ServicesSpec_Test_CRUD_Service_Category - 2016.11.13 at 14h 38m 01s.xml">
+      <configuration name="ServicesSpec.Test CRUD Service Category" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PromotionSpec_Test_CRUD_Promotion_Type - 2016.11.13 at 11h 16m 30s.xml">
-      <configuration name="PromotionSpec.Test CRUD Promotion Type" configurationId="JUnit" />
+    <history-entry file="ServicesSpec_Test_CRUD_Service_Type - 2016.11.13 at 14h 38m 16s.xml">
+      <configuration name="ServicesSpec.Test CRUD Service Type" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PromotionSpec_Test_CRUD_Promotion_Type - 2016.11.13 at 11h 32m 16s.xml">
-      <configuration name="PromotionSpec.Test CRUD Promotion Type" configurationId="JUnit" />
+    <history-entry file="ServicesSpec_Test_CRUD_Service_Type - 2016.11.13 at 14h 40m 58s.xml">
+      <configuration name="ServicesSpec.Test CRUD Service Type" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PromotionSpec_Test_CRUD_Promotion_Type - 2016.11.13 at 11h 35m 04s.xml">
-      <configuration name="PromotionSpec.Test CRUD Promotion Type" configurationId="JUnit" />
+    <history-entry file="TasksSpec_Add_2_Tasktype_+_Add_Task_+_change_task_from_task_type_ - 2016.11.13 at 14h 14m 05s.xml">
+      <configuration name="TasksSpec.Add 2 Tasktype + Add Task + change task from task type " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TasksSpec_Add_2_Tasktype_+_Add_Task_+_change_task_from_task_type_ - 2016.11.13 at 14h 28m 06s.xml">
+      <configuration name="TasksSpec.Add 2 Tasktype + Add Task + change task from task type " configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83147000" />
+    <option name="totallyTimeSpent" value="84900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -1699,7 +1727,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38675496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38675496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1769,7 +1797,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2029,23 +2057,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy">
+    <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/PromotionSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="179" column="13" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="28" />
           <folding>
-            <element signature="n#!!block;n#Test CRUD Service Category#0;n#!!block;n#ServicesSpec#0" expanded="false" />
+            <element signature="n#!!block;n#Test CRUD Promotion Type#0;n#!!block;n#PromotionSpec#0" expanded="false" />
+            <element signature="n#!!block;n#Test CRUD Promotion#0;n#!!block;n#PromotionSpec#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/TasksSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="91" column="9" selection-start-line="82" selection-start-column="8" selection-end-line="91" selection-end-column="9" />
-          <folding>
-            <element signature="e#17#55#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2059,21 +2086,20 @@
     </entry>
     <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/OrderSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="21" />
           <folding>
             <element signature="n#!!block;n#Test CRUD Order Type#0;n#!!block;n#OrderSpec#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/PromotionSpec.groovy">
+    <entry file="file:///Volumes/Backup/dev/workspace_gg/sodIntegrationTesting/src/test/groovy/sod/api/ServicesSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="15">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
           <folding>
-            <element signature="n#!!block;n#Test CRUD Promotion Type#0;n#!!block;n#PromotionSpec#0" expanded="false" />
-            <element signature="n#!!block;n#Test CRUD Promotion#0;n#!!block;n#PromotionSpec#0" expanded="false" />
+            <element signature="n#!!block;n#Test CRUD Service Category#0;n#!!block;n#ServicesSpec#0" expanded="false" />
           </folding>
         </state>
       </provider>

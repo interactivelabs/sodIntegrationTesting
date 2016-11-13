@@ -15,6 +15,7 @@ class ServicesSpec extends BaseSodSpecification{
     def paths = [serviceCategory: "services/service-category",
                  serviceType: "services/service-type",
                  serviceTypeTask: "services/service-type/service-type-task",
+                 productType: "products/product-type",
                  serviceTypeSpecs: "services/service-type/service-type-specs"];
 
     @Shared
@@ -67,16 +68,26 @@ class ServicesSpec extends BaseSodSpecification{
     }
 
 	def "Test CRUD Service Type"() {
+		given:
+		def response = restClient.get(path: paths["serviceCategory"], requestContentType: MediaType.JSON_UTF_8);
+		def pResponse = response.data;
+		int idParent = pResponse[0]["idServiceCategory"];
+
+		response = restClient.get(path: paths["productType"], requestContentType: MediaType.JSON_UTF_8);
+		pResponse = response.data;
+		int idProductType = pResponse[0]["idProductType"];
+		println ("-->" + idParent);
+
 		when:
 		def body = [
 				"description": "string",
 				"name": "type-" + nameHelper,
 				"price": 100,
 				"time": 40,
-				"idServiceCategory": 1,
+				"idServiceCategory": idParent,
 				"calculator": false
 		];
-		def response = restClient.post(path: paths['serviceType'], body: body, requestContentType: MediaType.JSON_UTF_8)
+		response = restClient.post(path: paths['serviceType'], body: body, requestContentType: MediaType.JSON_UTF_8)
 		def type = response.data;
 		println new JsonBuilder(type).toPrettyString()
 
@@ -86,7 +97,7 @@ class ServicesSpec extends BaseSodSpecification{
 		}
 
 		when:
-			def products = [[idProductType: 1]];
+			def products = [[idProductType: idProductType]];
 			response = restClient.post(path: paths['serviceType'] + "/addProducts/" + type.idServiceType, body: products, requestContentType: MediaType.JSON_UTF_8)
 			println new JsonBuilder(response.data).toPrettyString()
 		then:
