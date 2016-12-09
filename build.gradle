@@ -20,19 +20,21 @@ dependencies {
         springVersion:'4.1.6.RELEASE'
     ]
 
-    // for testing rest.
-    compile "org.springframework:spring-web:${dependencies.springVersion}"
-    compile "org.springframework:spring-webmvc:${dependencies.springVersion}"
-    compile "org.springframework:spring-context-support:${dependencies.springVersion}"
+    // Making rest calls...
     compile 'com.fasterxml.jackson.core:jackson-databind:2.5.4'
     compile 'org.codehaus.groovy:groovy-backports-compat23:2.3.7'
+	compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.25'
+
+
+	// Swagger Libraries
 //    compile group: 'io.swagger', name: 'swagger-jaxrs', version: dependencies.swaggerParser
     compile group: 'io.swagger', name: 'swagger-parser', version: dependencies.swaggerParser
-    compile 'com.google.guava:guava:19.0'
 
+	// Global Libraries.
+    compile 'com.google.guava:guava:19.0'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
 
-    // logging
+    // Loging libraries
     compile group: 'org.slf4j', name:'slf4j-api', version: '1.6.4'
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '0.9.26'
 

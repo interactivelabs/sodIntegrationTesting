@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting.iml" filepath="$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting_main.iml" group="sodIntegrationTesting" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-94084319/sodIntegrationTesting_test.iml" group="sodIntegrationTesting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sodIntegrationTesting.iml" filepath="$PROJECT_DIR$/.idea/modules/sodIntegrationTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sodIntegrationTesting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sodIntegrationTesting_main.iml" group="sodIntegrationTesting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sodIntegrationTesting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sodIntegrationTesting_test.iml" group="sodIntegrationTesting" />
     </modules>
   </component>
 </project>

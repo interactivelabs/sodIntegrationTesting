@@ -14,6 +14,14 @@ class BaseSodSpecification  extends Specification{
         restClient.handler.failure = restClient.handler.success
 
         uris = URIs.uris;
+//		println("*******************")
+//		println("*******************")
+//		println("*******************")
+//	    uris.each{ k, v -> println "${k}:${v}" }
+//	    println("*******************")
+//	    println("*******************")
+//	    println("*******************")
+
         println("myProperty: " + Helper.getProperties())
     }
 
